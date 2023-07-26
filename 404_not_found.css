@@ -1,0 +1,62 @@
+.header li { /* Suppression des puces */  
+    list-style-type: none ;
+    font-family: Inconsolata;
+    font-size: 120%;
+    font-weight: 600;
+}
+
+.header a {
+    display:block;                /* Transformation en block */
+    text-decoration: none;        /* pour supprimer les soulignement */
+    margin-top: 10px;
+    color: black;
+}
+
+.body {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+}
+
+img {
+    width: 50%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 370%;
+    font-family: "Space Mono";
+    color: #333333;
+}
+
+.p1 {
+    font-size: 140%;
+    font-family: "Space Mono";
+    color: #4F4F4F;
+    /* float: right; */
+    /* width: 50%; */
+}
+
+.a_droite {
+    text-align: left;
+}
+
+.back {
+    /* display: flex; */
+    padding: 20px 30px;
+    background-color: black;
+    margin: 0.30rem;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.9rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;
+    color: white;
+    border: 1px solid #fff;       /* Ajout d'une bordure */
+    border-radius: 4px;  
+}
+
+footer {
+    text-align:center;
+    padding: 5px;
+    /* background-color: #abbaba; */
+    color: #000;
+}
